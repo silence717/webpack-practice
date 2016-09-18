@@ -3,9 +3,8 @@
  * @since  2016-09-18
  */
 module.exports = {
-    entry: ['./utils.js', './app.js'],
+    entry: ['./app.js', './utils.js'],
     output: {
         filename: 'bundle.js'
     }
-    
 };

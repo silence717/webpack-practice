@@ -4,7 +4,7 @@
  */
 require('./login');
 
-document.write('welcome to big Hair content!');
+document.write('hello world!');
 console.log('App loaded');
 
 
