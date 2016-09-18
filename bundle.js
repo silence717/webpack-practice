@@ -42,17 +42,55 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(1);
+	module.exports = __webpack_require__(2);
+
+
+/***/ },
+/* 1 */
 /***/ function(module, exports) {
 
 	/**
 	 * @author [https://github.com/silence717]
 	 * @since  2016-09-18
 	 */
-	document.write('welcome to big Hair!');
-	console.log('App loaded');
 
 
 
+/***/ },
+/* 2 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/**
+	 * @author [https://github.com/silence717]
+	 * @since  2016-09-18
+	 */
+	__webpack_require__(3);
+
+	document.write('welcome to big Hair content!');
+
+
+
+
+
+/***/ },
+/* 3 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	/**
+	 * @author [https://github.com/silence717]
+	 * @since  2016-09-18
+	 */
+
+	var login = function login(username, password) {
+	  if (username !== 'admin' || password !== '123') {}
+	};
+
+	login('admin', '456');
 
 /***/ }
 /******/ ]);
