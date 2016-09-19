@@ -7,6 +7,7 @@ module.exports = {
     output: {
         filename: 'bundle.js'
     },
+    devtool: 'source-map',
     module: {
         preLoaders: [
             {
@@ -24,6 +25,6 @@ module.exports = {
         ]
     },
     resolve: {
-        extensidons: ['', '.js', '.es6']
+        extensions: ['', '.js', '.es6']
     }
 };
