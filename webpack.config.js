@@ -18,18 +18,11 @@ module.exports = {
     },
     
     module: {
-        // preLoaders: [
-        //     {
-        //         test: /\.js$/,
-        //         exclude: 'node_modules',
-        //         loader: 'eslint-loader'
-        //     }
-        // ],
         loaders: [
             {
-                test: /\.es6$/,
+                test: /\.html/,
                 exclude: /node_modules/,
-                loader: 'babel-loader'
+                loader: 'raw-loader'
             }
         ]
     },
